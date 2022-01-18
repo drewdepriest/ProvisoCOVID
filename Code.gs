@@ -1,9 +1,8 @@
 function getCOVID() {
 
-  //Proviso ZIPs
+  //Proviso ZIPs, as per https://en.wikipedia.org/wiki/Proviso_Township,_Cook_County,_Illinois
   provisoZIP = ["60104","60126","60130","60141","60153","60154","60155","60160","60161","60162","60163","60164","60165","60513","60521","60526","60546","60558","60682"];
-  //provisoZIP = ["60130"];
-
+ 
   //for all the ZIPs in Proviso, for all the dates over last 90 days, call this API and store results in array
   //https://idph.illinois.gov/DPHPublicInformation/api/COVIDExport/GetZipByDay?zipCode=60130
 
